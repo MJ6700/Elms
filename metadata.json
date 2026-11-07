@@ -1,0 +1,6 @@
+{
+  "name": "STI eLMS App",
+  "description": "STI eLMS portal application with dedicated browser navigation, quick portal access, and standalone PWA support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004b8d" />
+      <stop offset="100%" stop-color="#002d5a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE033" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#FFC72C" stroke-width="6" opacity="0.4" />
+
+  <g filter="url(#shadow)">
+    <path d="M 256 120 L 400 185 L 256 250 L 112 185 Z" fill="url(#goldGrad)" />
+    <path d="M 170 215 L 170 280 C 170 325 342 325 342 280 L 342 215 L 256 254 Z" fill="#FFFFFF" opacity="0.95" />
+    <path d="M 380 190 L 392 270 C 392 285 410 285 410 270 L 400 190 Z" fill="#FFE033" />
+
+    <text x="256" y="380" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="74" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">STI</text>
+    <rect x="166" y="405" width="180" height="34" rx="17" fill="#FFC72C" />
+    <text x="256" y="429" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#002D5A" text-anchor="middle" letter-spacing="2">eLMS</text>
+  </g>
+</svg>
